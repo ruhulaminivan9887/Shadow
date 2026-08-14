@@ -1,0 +1,15 @@
+{
+  "name": "shadowlens",
+  "version": "1.0.0",
+  "description": "Shadow AI discovery and governance for Google Workspace and Microsoft 365",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5",
+    "@supabase/supabase-js": "^2.45.4",
+    "googleapis": "^140.0.0",
+    "stripe": "^16.8.0"
+  }
+}
